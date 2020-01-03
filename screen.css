@@ -75,6 +75,12 @@ content ul li img
 	height: 150px;
 }
 
+table
+{
+	width: 75%;
+	text-align: center;
+}
+
 th, td 
 {
 	text-align: left;
