@@ -1,0 +1,145 @@
+/* External imports */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300);
+
+/* Global styles */
+
+html, body
+{
+	height: 100%;
+	background: #c0c0c0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header, footer, content
+{
+	text-align: center;
+}
+
+h1, h2, ul, p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2
+{
+  	padding-bottom: 5px;
+}
+
+h1
+{
+	border-bottom: 1px solid #888888;
+}
+
+h2 
+{
+	padding-top: 5px;
+}
+
+li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+}
+
+li:last-child
+{
+	margin-right: 0px;
+}
+	
+header img
+{
+	border: 1px solid #000000;
+	width: 150px;
+	height: 150px;
+	box-shadow: 2px 2px 32px #c3c3c3;
+}
+
+content
+{
+	font-size: 0.75rem;
+}
+
+content p
+{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.5;
+}
+
+content ul li img
+{
+	height: 150px;
+}
+
+th, td 
+{
+	text-align: left;
+	vertical-align: top;
+}
+
+footer
+{
+	height: 50px;
+	margin-top: 15px;
+	font-size: 0.75em;
+	color: #dadada;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	font-weight: 600;
+}
+
+footer a
+{
+	color: inherit;
+}
+
+/* Custom classes */
+
+content ul li img .small
+{
+	height: 75px;
+}
+
+.quote
+{
+	width: 75%;
+	margin: 0 auto;
+	padding: 5px;
+	font-style: italic;
+	font-size: 0.75rem;
+	color:  #888888;
+	font-weight: 300;
+}	
+
+.card
+{
+	background: #ffffff;
+	padding: 15px;
+	margin-top: 25px;
+	box-shadow: 10px 10px 5px #aaa;
+	border: #aaa 1px solid;
+}
+
+/* Overriding font-awesome styles */
+
+.fa
+{
+	color: #888888;
+}
+
+.fa:hover
+{
+	color: #888888;
+	text-shadow: 1px 1px 1px #888888;
+}
