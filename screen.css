@@ -77,8 +77,8 @@ content ul li img
 
 table
 {
-	width: 75%;
-	text-align: center;
+    	width: 100%;
+   	margin: 0 auto;
 }
 
 th, td 
