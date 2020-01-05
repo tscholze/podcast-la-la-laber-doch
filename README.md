@@ -1,7 +1,7 @@
 tscholze.github.io/podcast-la-la-laber-doch
 ======
 
-This is the repository to host an introduction page for my tiny German podcast experiment [La-La-Laber doch!](https://tscholze.github.io/podcast-la-la-laber-doch). It featurey bug, the stuttering as a feature and as main topic of the diffrent episodes.
+This is the repository to host an introduction page for my tiny German podcast experiment [La-La-Laber doch!](https://tscholze.github.io/podcast-la-la-laber-doch). It fuetures my own bug, the stuttering, as a feature and as main topic of the diffrent episodes.
 
 For more information, please visit the rendered page of this repository.
 Have a nice day.
