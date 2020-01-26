@@ -62,8 +62,9 @@ ForEach ($Item in $Items)
 $Content = Get-Content -Path $TemplatePath -Raw;
 $Content = $Content.Replace("{{TABLE_CONTENT}}", $RowsHtml)
 
-Remove-Item -Path $TargetPath
-$Content | ConvertTo-Html -Property HealthCheck | Out-File $TargetPath
+
+Remove-Item -Path $TargetPath -ErrorAction SilentlyContinu
+$Content | Out-File $TargetPath
 
 # Git commit and push it to remote
 Set-Location $PSScriptRoot
