@@ -62,10 +62,11 @@ ForEach ($Item in $Items)
 $Content = Get-Content -Path $TemplatePath -Raw;
 $Content = $Content.Replace("{{TABLE_CONTENT}}", $RowsHtml)
 
-#Remove-Item -Path $TargetPath
+Remove-Item -Path $TargetPath
 $Content | ConvertTo-Html -Property HealthCheck | Out-File $TargetPath
 
-cd $PSScriptRoot
+# Git commit and push it to remote
+Set-Location $PSScriptRoot
 git add .
 git commit -m "Updated index.html"
 git push
